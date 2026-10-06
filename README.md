@@ -65,10 +65,14 @@ docker run --rm -p 8000:8000 taskflow
 <!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
 
 Ajout d'un workflow ci.yml pour effectuer un job de test et de lint
+
 <img width="454" height="207" alt="image" src="https://github.com/user-attachments/assets/bfa56ee2-719f-4005-891d-e6e8beb27039" />
 
+
 Paramètres utilisés dans le ruleset pour que le merge sur la branche main ne se fasse que lorsque les 2 jobs sont en verts
+
 <img width="1852" height="896" alt="image" src="https://github.com/user-attachments/assets/208a1457-8149-4ecb-a0fe-92f451da4b5e" />
+
 
 Si le job test ou lint n'est pas vert, on ne peut pas merge
 
