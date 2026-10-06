@@ -71,5 +71,6 @@ Paramètres utilisés dans le ruleset pour que le merge sur la branche main ne s
 <img width="1852" height="896" alt="image" src="https://github.com/user-attachments/assets/208a1457-8149-4ecb-a0fe-92f451da4b5e" />
 
 Si le job test ou lint n'est pas vert, on ne peut pas merge
+
 <img width="358" height="424" alt="image" src="https://github.com/user-attachments/assets/74ecbb63-7247-4aa9-8fb6-b9433491471e" />
 
