@@ -1,3 +1,5 @@
+![CI Pipeline](https://github.com/MrrBoo/cicd-fil-rouge/actions/workflows/ci.yml/badge.svg)
+
 # TaskFlow — dépôt fil rouge CI/CD
 
 TaskFlow est une petite API de gestion de tâches écrite en Python avec FastAPI.
@@ -56,7 +58,8 @@ docker run --rm -p 8000:8000 taskflow
 | `NOTIFY_WEBHOOK_URL` | Webhook appelé à chaque création de tâche | vide (désactivé) |
 
 ## Équipe
-
+Ibrahim KONE
+Stanislas de Dieuleveult
 <!-- Lab J1 : remplacez par les noms du binôme -->
 - À compléter
 
@@ -77,4 +80,22 @@ Paramètres utilisés dans le ruleset pour que le merge sur la branche main ne s
 Si le job test ou lint n'est pas vert, on ne peut pas merge
 
 <img width="358" height="424" alt="image" src="https://github.com/user-attachments/assets/74ecbb63-7247-4aa9-8fb6-b9433491471e" />
+
+# LAB Jour 1 - Partie 2
+
+Ajout du cache, matrice python, concurrency et rapport de test en artefact. Comme on peut le voir, le job test ne passe pas même si tout est vert.
+<img width="454" height="285" alt="image" src="https://github.com/user-attachments/assets/32ded1c9-c165-43d9-a178-cabb6c7f16a4" />
+
+Il faut ajouter un nouveau job CI OK qui va fait un seul check
+
+<img width="454" height="213" alt="image" src="https://github.com/user-attachments/assets/9e40b90d-24bf-4b1e-bd86-eb03bc1d8ccf" />
+
+<img width="454" height="252" alt="image" src="https://github.com/user-attachments/assets/e9768011-54cb-4eb5-902b-65f6d6a87d7d" />
+
+<img width="454" height="229" alt="image" src="https://github.com/user-attachments/assets/2bcf7acb-df9a-41f2-90de-803d321e8019" />
+
+On a bien les artefacts que l'on peut télécharger
+
+<img width="454" height="137" alt="image" src="https://github.com/user-attachments/assets/984e2416-7dc3-44b4-b5bc-4411673e08f7" />
+
 
