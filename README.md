@@ -1,4 +1,4 @@
-![CI Pipeline](https://github.com/MrrBoo/cicd-fil-rouge/actions/workflows/ci.yml/badge.svg)
+![CI Pipeline](https://github.com/MrrBoo/cicd-fil-rouge/actions/workflows/ci.yml/badge.svg?branch=main)
 
 # TaskFlow — dépôt fil rouge CI/CD
 
