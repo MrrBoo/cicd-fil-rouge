@@ -59,9 +59,9 @@ docker run --rm -p 8000:8000 taskflow
 
 ## Équipe
 Ibrahim KONE
+
 Stanislas de Dieuleveult
 <!-- Lab J1 : remplacez par les noms du binôme -->
-- À compléter
 
 ## Gouvernance du dépôt
 
@@ -84,6 +84,7 @@ Si le job test ou lint n'est pas vert, on ne peut pas merge
 # LAB Jour 1 - Partie 2
 
 Ajout du cache, matrice python, concurrency et rapport de test en artefact. Comme on peut le voir, le job test ne passe pas même si tout est vert.
+
 <img width="454" height="285" alt="image" src="https://github.com/user-attachments/assets/32ded1c9-c165-43d9-a178-cabb6c7f16a4" />
 
 Il faut ajouter un nouveau job CI OK qui va fait un seul check
